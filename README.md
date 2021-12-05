@@ -7,13 +7,41 @@ Spin up React + Typescript projects complete with basic routing setup with a top
 - [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview)
 - [Sass/SCSS modules](https://sass-lang.com/documentation)
 
-## Available Scripts
+## Setup
+
+1. Be sure to copy over the `.gitignore` file
+
+1. Remove any old `.git` references to this repo:
+
+```bash
+  ## Clone this project
+  git clone this-repo
+  ## Navigate to project & remove history
+  cd path/to/this-repo
+  rm -rf .git
+```
+
+1. Update `.git` origin
+
+From the project root:
+
+```bash
+# Create new .git history with "main" branch
+git init -b main
+# Add and commit your files
+git add .
+git commit -m "some message"
+# Point to your new repo
+git remote add origin <NEW_REMOTE_URL> 
+# Double-check the URL
+git remote -v
+```
+
+1. `yarn install && yarn upgrade all`
+
+You're ready to go!
 
 ### Development
-
-To install and update all the packages you'll need:
-
-#### `yarn install && yarn upgrade all`
 
 In the project directory, you can run:
 
