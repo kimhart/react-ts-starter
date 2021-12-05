@@ -1,6 +1,6 @@
 {
-  "short_name": "App",
-  "name": "App",
+  "short_name": "React-TS-Starter",
+  "name": "React-TS-Starter",
   "icons": [
     {
       "src": "favicon.ico",

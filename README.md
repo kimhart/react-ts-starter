@@ -1,6 +1,6 @@
-# React-Typescript Starter Kit
+# React + Typescript Starter Kit
 
-Starter kit for spinning up new React + Typescript projects. It includes basic routing setup with a top nav component, component shells, and the following packages & tools installed:
+Spin up React + Typescript projects complete with basic routing setup with a top nav, component shells, and the following packages & tools installed:
 
 - [Create React App](https://github.com/facebook/create-react-app)
 - [React Query](https://react-query.tanstack.com/overview)
