@@ -30,15 +30,20 @@ From the project root:
 ```bash
 # Create new .git history with "main" branch
 git init -b main
+
 # Add and commit your files
 git add .
-git commit -m "some message"
+git commit -m "first commit"
+
 # Point to your new repo
 git remote add origin <NEW_REMOTE_URL> (ex: `git@github.com:org/repo.git`)
+
 # Double-check the URL
-git remote -v
+git remote -v 
+
 # Set the main branch
 git branch -M main
+
 # Push your changes
 git push -u origin main
 ```
