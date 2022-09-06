@@ -9,17 +9,11 @@ Spin up React + Typescript projects complete with basic routing setup with a top
 
 ## Setup
 
-1. Remove any old `.git` references to this repo:
+1. Clone this repo and remove any old `.git` references:
 
 ```bash
-  ## Clone this project
-  git clone git@github.com:kimhart/react-ts-starter.git
-  ## Navigate to project & remove history
-  cd path/to/react-ts-starter
   rm -rf .git
 ```
-
-1. Be sure to copy over the `.gitignore` file
 
 1. Rename your folder + app, update your `README`
 
