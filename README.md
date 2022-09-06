@@ -9,17 +9,17 @@ Spin up React + Typescript projects complete with basic routing setup with a top
 
 ## Setup
 
-1. Clone this repo and remove any old `.git` references:
+### 1. Clone this repo and remove old `.git` references:
 
 ```bash
+  cd react-ts-starter
   rm -rf .git
 ```
 
-1. Rename your folder + app, update your `README`
+### 2. Setup Your New Project
+Rename your folder + app, update your `README` & `package.json`.
 
-1. Update `.git` origin
-
-From the project root:
+### 3. Point to Your New Repo
 
 ```bash
 # Create new .git history with "main" branch
@@ -29,8 +29,8 @@ git init -b main
 git add .
 git commit -m "first commit"
 
-# Point to your new repo
-git remote add origin <NEW_REMOTE_URL> (ex: `git@github.com:org/repo.git`)
+# Set origin to your new repo
+git remote add origin <NEW_REMOTE_URL> (e.g: git@github.com:org/repo.git)
 
 # Double-check the URL
 git remote -v 
@@ -42,11 +42,14 @@ git branch -M main
 git push -u origin main
 ```
 
-1. `yarn install && yarn upgrade all`
+### 4. Install Party 🎉
+```
+yarn install && yarn upgrade all
+```
 
 You're ready to go!
 
-### Development
+## Development
 
 In the project directory, you can run:
 
